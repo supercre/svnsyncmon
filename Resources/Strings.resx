@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <data name="AppTitle" xml:space="preserve">
+    <value>SVNSyncMon</value>
+  </data>
+  <data name="FileMenu" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="EditPathsMenu" xml:space="preserve">
+    <value>SVN 경로 편집</value>
+  </data>
+  <data name="ExitMenu" xml:space="preserve">
+    <value>종료</value>
+  </data>
+  <data name="SVNPathLabel" xml:space="preserve">
+    <value>SVN 실행 파일 경로:</value>
+  </data>
+  <data name="SelectButton" xml:space="preserve">
+    <value>선택</value>
+  </data>
+  <data name="UpdateAllButton" xml:space="preserve">
+    <value>즉시 모든 SVN 저장소 업데이트</value>
+  </data>
+  <data name="ClearLogButton" xml:space="preserve">
+    <value>로그 지우기</value>
+  </data>
+  <data name="PathColumn" xml:space="preserve">
+    <value>경로</value>
+  </data>
+  <data name="IntervalColumn" xml:space="preserve">
+    <value>업데이트 간격(분)</value>
+  </data>
+  <data name="AddButton" xml:space="preserve">
+    <value>추가</value>
+  </data>
+  <data name="RemoveButton" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="BrowseButton" xml:space="preserve">
+    <value>찾아보기</value>
+  </data>
+  <data name="PathLabel" xml:space="preserve">
+    <value>경로:</value>
+  </data>
+  <data name="IntervalLabel" xml:space="preserve">
+    <value>업데이트 간격(분):</value>
+  </data>
+  <data name="OKButton" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>{0} 업데이트 중...</value>
+  </data>
+  <data name="UpdateComplete" xml:space="preserve">
+    <value>{0} 업데이트 완료</value>
+  </data>
+  <data name="UpdateFailed" xml:space="preserve">
+    <value>{0} 업데이트 실패: {1}</value>
+  </data>
+  <data name="TaskError" xml:space="preserve">
+    <value>업데이트 작업 중 오류 발생: {0}</value>
+  </data>
+  <data name="OldPathDeleted" xml:space="preserve">
+    <value>이전 SVN 경로 삭제됨: {0}</value>
+  </data>
+  <data name="OldPathDeleteFailed" xml:space="preserve">
+    <value>이전 SVN 경로 삭제 실패: {0}</value>
+  </data>
+  <data name="StartupEnabled" xml:space="preserve">
+    <value>Windows 시작 시 실행이 활성화되었습니다.</value>
+  </data>
+  <data name="StartupDisabled" xml:space="preserve">
+    <value>Windows 시작 시 실행이 비활성화되었습니다.</value>
+  </data>
+  <data name="StartupError" xml:space="preserve">
+    <value>Windows 시작 시 실행 설정 중 오류 발생: {0}</value>
+  </data>
+  <data name="SVNPathNotFound" xml:space="preserve">
+    <value>SVN 실행 파일을 찾을 수 없습니다. 경로를 설정해주세요.</value>
+  </data>
+  <data name="SVNPathInvalid" xml:space="preserve">
+    <value>유효하지 않은 SVN 실행 파일입니다.</value>
+  </data>
+  <data name="SVNPathSaved" xml:space="preserve">
+    <value>SVN 실행 파일 경로가 저장되었습니다.</value>
+  </data>
+  <data name="SVNPathSaveFailed" xml:space="preserve">
+    <value>SVN 실행 파일 경로 저장 실패: {0}</value>
+  </data>
+  <data name="SVNPathLoadFailed" xml:space="preserve">
+    <value>SVN 실행 파일 경로 로드 실패: {0}</value>
+  </data>
+  <data name="SVNPathsSaved" xml:space="preserve">
+    <value>SVN 경로가 저장되었습니다.</value>
+  </data>
+  <data name="SVNPathsSaveFailed" xml:space="preserve">
+    <value>SVN 경로 저장 실패: {0}</value>
+  </data>
+  <data name="SVNPathsLoadFailed" xml:space="preserve">
+    <value>SVN 경로 로드 실패: {0}</value>
+  </data>
+  <data name="InvalidInterval" xml:space="preserve">
+    <value>유효하지 않은 업데이트 간격입니다. 1분 이상의 숫자를 입력해주세요.</value>
+  </data>
+  <data name="InvalidPath" xml:space="preserve">
+    <value>유효하지 않은 경로입니다.</value>
+  </data>
+  <data name="DuplicatePath" xml:space="preserve">
+    <value>이미 존재하는 경로입니다.</value>
+  </data>
+  <data name="SelectSVNPath" xml:space="preserve">
+    <value>SVN 실행 파일 선택</value>
+  </data>
+  <data name="SelectFolder" xml:space="preserve">
+    <value>폴더 선택</value>
+  </data>
+  <data name="AllFiles" xml:space="preserve">
+    <value>모든 파일 (*.*)</value>
+  </data>
+  <data name="ExecutableFiles" xml:space="preserve">
+    <value>실행 파일 (*.exe)</value>
+  </data>
+  <data name="UpdateIntervalTitle" xml:space="preserve">
+    <value>Update Interval Settings</value>
+  </data>
+  <data name="UpdateIntervalLabel" xml:space="preserve">
+    <value>Update Interval (minutes):</value>
+  </data>
+  <data name="SelectSVNRepositoryPath" xml:space="preserve">
+    <value>Select SVN Repository Path</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="SVNExecutableFilter" xml:space="preserve">
+    <value>SVN Executable|svn.exe</value>
+  </data>
+  <data name="SelectSVNExecutable" xml:space="preserve">
+    <value>Select SVN Executable</value>
+  </data>
+  <data name="SVNPathLabel" xml:space="preserve">
+    <value>SVN Installation Path:</value>
+  </data>
+  <data name="SelectButton" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="UpdateInterval" xml:space="preserve">
+    <value>Update Interval (minutes)</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="NextUpdateTime" xml:space="preserve">
+    <value>Next Update Time:</value>
+  </data>
+  <data name="LogExceeded" xml:space="preserve">
+    <value>Log has been cleared because it exceeded 5000 lines.</value>
+  </data>
+  <data name="SVNPathsLoaded" xml:space="preserve">
+    <value>Loaded {0} SVN paths.</value>
+  </data>
+  <data name="SVNPathsConfigNotFound" xml:space="preserve">
+    <value>SVN path configuration file not found. Please add paths in 'Settings > SVN Repository Settings'.</value>
+  </data>
+  <data name="SVNUpdateSuccess" xml:space="preserve">
+    <value>SVN Update Success: {0}</value>
+  </data>
+  <data name="UpdateCompleteTime" xml:space="preserve">
+    <value>Update Completed at: {0}</value>
+  </data>
+  <data name="SVNUpdateFailed" xml:space="preserve">
+    <value>SVN Update Failed: {0}</value>
+  </data>
+  <data name="SVNUpdateError" xml:space="preserve">
+    <value>SVN Update Error: {0}</value>
+  </data>
+  <data name="SVNPathsUpdated" xml:space="preserve">
+    <value>Updated {0} SVN paths.</value>
+  </data>
+</root> 

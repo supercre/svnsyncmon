@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="xml:space" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <data name="AppTitle" xml:space="preserve">
+    <value>SVNSyncMon</value>
+  </data>
+  <data name="UpdateAllNow" xml:space="preserve">
+    <value>すべてのSVNリポジトリを今すぐ更新</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="SVNPath" xml:space="preserve">
+    <value>SVNパス</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>選択</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="AddSVNPath" xml:space="preserve">
+    <value>SVNパスを追加</value>
+  </data>
+  <data name="EditSVNPath" xml:space="preserve">
+    <value>SVNパスを編集</value>
+  </data>
+  <data name="DeleteSVNPath" xml:space="preserve">
+    <value>SVNパスを削除</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>パス</value>
+  </data>
+  <data name="Interval" xml:space="preserve">
+    <value>間隔（分）</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="SVNPathNotFound" xml:space="preserve">
+    <value>指定されたパスでSVN実行ファイルが見つかりません。</value>
+  </data>
+  <data name="InvalidInterval" xml:space="preserve">
+    <value>有効な間隔（分）を入力してください。</value>
+  </data>
+  <data name="PathRequired" xml:space="preserve">
+    <value>パスが必要です。</value>
+  </data>
+  <data name="UpdateStarted" xml:space="preserve">
+    <value>{0}の更新を開始</value>
+  </data>
+  <data name="UpdateCompleted" xml:space="preserve">
+    <value>{0}の更新が完了</value>
+  </data>
+  <data name="UpdateFailed" xml:space="preserve">
+    <value>{0}の更新に失敗: {1}</value>
+  </data>
+  <data name="ClearLog" xml:space="preserve">
+    <value>ログをクリア</value>
+  </data>
+  <data name="LogCleared" xml:space="preserve">
+    <value>ログがクリアされました</value>
+  </data>
+  <data name="StartupEnabled" xml:space="preserve">
+    <value>Windows起動時にプログラムが実行されます</value>
+  </data>
+  <data name="StartupDisabled" xml:space="preserve">
+    <value>Windows起動時にプログラムは実行されません</value>
+  </data>
+  <data name="StartupError" xml:space="preserve">
+    <value>起動プログラムの設定に失敗: {0}</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="FileMenu" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="EditPathsMenu" xml:space="preserve">
+    <value>SVNリポジトリ設定</value>
+  </data>
+  <data name="StartupRegister" xml:space="preserve">
+    <value>起動プログラムに登録</value>
+  </data>
+  <data name="ShowSVNConsole" xml:space="preserve">
+    <value>SVNコンソールを表示</value>
+  </data>
+  <data name="UpdateIntervalTitle" xml:space="preserve">
+    <value>更新間隔の設定</value>
+  </data>
+  <data name="UpdateIntervalLabel" xml:space="preserve">
+    <value>更新間隔（分）:</value>
+  </data>
+  <data name="SelectSVNRepositoryPath" xml:space="preserve">
+    <value>SVNリポジトリのパスを選択してください</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>参照</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="SVNExecutableFilter" xml:space="preserve">
+    <value>SVN実行ファイル|svn.exe</value>
+  </data>
+  <data name="SelectSVNExecutable" xml:space="preserve">
+    <value>SVN実行ファイルを選択</value>
+  </data>
+  <data name="SVNPathLabel" xml:space="preserve">
+    <value>SVNインストールパス:</value>
+  </data>
+  <data name="SelectButton" xml:space="preserve">
+    <value>選択</value>
+  </data>
+  <data name="UpdateInterval" xml:space="preserve">
+    <value>更新間隔（分）</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="NextUpdateTime" xml:space="preserve">
+    <value>次回更新時刻:</value>
+  </data>
+  <data name="LogExceeded" xml:space="preserve">
+    <value>ログが5000行を超えたため、初期化されました。</value>
+  </data>
+  <data name="SVNPathsLoaded" xml:space="preserve">
+    <value>SVNパス{0}個を読み込みました。</value>
+  </data>
+  <data name="SVNPathsConfigNotFound" xml:space="preserve">
+    <value>SVNパス設定ファイルが見つかりません。'設定 > SVNリポジトリ設定'でパスを追加してください。</value>
+  </data>
+  <data name="SVNUpdateSuccess" xml:space="preserve">
+    <value>SVN更新成功: {0}</value>
+  </data>
+  <data name="UpdateCompleteTime" xml:space="preserve">
+    <value>更新完了時刻: {0}</value>
+  </data>
+  <data name="SVNUpdateFailed" xml:space="preserve">
+    <value>SVN更新失敗: {0}</value>
+  </data>
+  <data name="SVNUpdateError" xml:space="preserve">
+    <value>SVN更新エラー: {0}</value>
+  </data>
+  <data name="SVNPathsUpdated" xml:space="preserve">
+    <value>SVNパス{0}個を更新しました。</value>
+  </data>
+</root> 

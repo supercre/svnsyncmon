@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="xml:space" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <data name="AppTitle" xml:space="preserve">
+    <value>SVNSyncMon</value>
+  </data>
+  <data name="UpdateAllNow" xml:space="preserve">
+    <value>Alle SVN-Repositories jetzt aktualisieren</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="SVNPath" xml:space="preserve">
+    <value>SVN-Pfad</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="AddSVNPath" xml:space="preserve">
+    <value>SVN-Pfad hinzufügen</value>
+  </data>
+  <data name="EditSVNPath" xml:space="preserve">
+    <value>SVN-Pfad bearbeiten</value>
+  </data>
+  <data name="DeleteSVNPath" xml:space="preserve">
+    <value>SVN-Pfad löschen</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Pfad</value>
+  </data>
+  <data name="Interval" xml:space="preserve">
+    <value>Intervall (Minuten)</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="SVNPathNotFound" xml:space="preserve">
+    <value>SVN-Ausführungsdatei wurde nicht gefunden.</value>
+  </data>
+  <data name="InvalidInterval" xml:space="preserve">
+    <value>Bitte geben Sie ein gültiges Intervall in Minuten ein.</value>
+  </data>
+  <data name="PathRequired" xml:space="preserve">
+    <value>Pfad ist erforderlich.</value>
+  </data>
+  <data name="UpdateStarted" xml:space="preserve">
+    <value>{0} Update gestartet</value>
+  </data>
+  <data name="UpdateCompleted" xml:space="preserve">
+    <value>{0} Update abgeschlossen</value>
+  </data>
+  <data name="UpdateFailed" xml:space="preserve">
+    <value>{0} Update fehlgeschlagen: {1}</value>
+  </data>
+  <data name="ClearLog" xml:space="preserve">
+    <value>Protokoll löschen</value>
+  </data>
+  <data name="LogCleared" xml:space="preserve">
+    <value>Protokoll wurde gelöscht</value>
+  </data>
+  <data name="StartupEnabled" xml:space="preserve">
+    <value>Programm wird beim Windows-Start ausgeführt</value>
+  </data>
+  <data name="StartupDisabled" xml:space="preserve">
+    <value>Programm wird nicht beim Windows-Start ausgeführt</value>
+  </data>
+  <data name="StartupError" xml:space="preserve">
+    <value>Fehler beim Einrichten des Autostarts: {0}</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="FileMenu" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="EditPathsMenu" xml:space="preserve">
+    <value>SVN-Repository-Einstellungen</value>
+  </data>
+  <data name="StartupRegister" xml:space="preserve">
+    <value>Beim Start ausführen</value>
+  </data>
+  <data name="ShowSVNConsole" xml:space="preserve">
+    <value>SVN-Konsole anzeigen</value>
+  </data>
+  <data name="UpdateIntervalTitle" xml:space="preserve">
+    <value>Aktualisierungsintervall-Einstellungen</value>
+  </data>
+  <data name="UpdateIntervalLabel" xml:space="preserve">
+    <value>Aktualisierungsintervall (Minuten):</value>
+  </data>
+  <data name="SelectSVNRepositoryPath" xml:space="preserve">
+    <value>SVN-Repository-Pfad auswählen</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>Hinweis</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Durchsuchen</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="SVNExecutableFilter" xml:space="preserve">
+    <value>SVN-Ausführungsdatei|svn.exe</value>
+  </data>
+  <data name="SelectSVNExecutable" xml:space="preserve">
+    <value>SVN-Ausführungsdatei auswählen</value>
+  </data>
+  <data name="SVNPathLabel" xml:space="preserve">
+    <value>SVN-Installationspfad:</value>
+  </data>
+  <data name="SelectButton" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="UpdateInterval" xml:space="preserve">
+    <value>Aktualisierungsintervall (Minuten)</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>Minuten</value>
+  </data>
+  <data name="NextUpdateTime" xml:space="preserve">
+    <value>Nächste Aktualisierung:</value>
+  </data>
+  <data name="LogExceeded" xml:space="preserve">
+    <value>Protokoll wurde zurückgesetzt, da es 5000 Zeilen überschritten hat.</value>
+  </data>
+  <data name="SVNPathsLoaded" xml:space="preserve">
+    <value>{0} SVN-Pfade geladen.</value>
+  </data>
+  <data name="SVNPathsConfigNotFound" xml:space="preserve">
+    <value>SVN-Pfadkonfigurationsdatei nicht gefunden. Bitte fügen Sie Pfade unter 'Einstellungen > SVN-Repository-Einstellungen' hinzu.</value>
+  </data>
+  <data name="SVNUpdateSuccess" xml:space="preserve">
+    <value>SVN-Aktualisierung erfolgreich: {0}</value>
+  </data>
+  <data name="UpdateCompleteTime" xml:space="preserve">
+    <value>Aktualisierung abgeschlossen um: {0}</value>
+  </data>
+  <data name="SVNUpdateFailed" xml:space="preserve">
+    <value>SVN-Aktualisierung fehlgeschlagen: {0}</value>
+  </data>
+  <data name="SVNUpdateError" xml:space="preserve">
+    <value>SVN-Aktualisierungsfehler: {0}</value>
+  </data>
+  <data name="SVNPathsUpdated" xml:space="preserve">
+    <value>{0} SVN-Pfade aktualisiert.</value>
+  </data>
+</root> 

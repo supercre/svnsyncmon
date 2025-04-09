@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="xml:space" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <data name="AppTitle" xml:space="preserve">
+    <value>SVNSyncMon</value>
+  </data>
+  <data name="UpdateAllNow" xml:space="preserve">
+    <value>Actualizar todos los repositorios SVN ahora</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="SVNPath" xml:space="preserve">
+    <value>Ruta SVN</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="AddSVNPath" xml:space="preserve">
+    <value>Añadir ruta SVN</value>
+  </data>
+  <data name="EditSVNPath" xml:space="preserve">
+    <value>Editar ruta SVN</value>
+  </data>
+  <data name="DeleteSVNPath" xml:space="preserve">
+    <value>Eliminar ruta SVN</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Ruta</value>
+  </data>
+  <data name="Interval" xml:space="preserve">
+    <value>Intervalo (minutos)</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Advertencia</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="SVNPathNotFound" xml:space="preserve">
+    <value>No se encontró el ejecutable SVN en la ruta especificada.</value>
+  </data>
+  <data name="InvalidInterval" xml:space="preserve">
+    <value>Por favor, introduzca un intervalo válido en minutos.</value>
+  </data>
+  <data name="PathRequired" xml:space="preserve">
+    <value>Se requiere la ruta.</value>
+  </data>
+  <data name="UpdateStarted" xml:space="preserve">
+    <value>Comenzó la actualización de {0}</value>
+  </data>
+  <data name="UpdateCompleted" xml:space="preserve">
+    <value>Completada la actualización de {0}</value>
+  </data>
+  <data name="UpdateFailed" xml:space="preserve">
+    <value>Error al actualizar {0}: {1}</value>
+  </data>
+  <data name="ClearLog" xml:space="preserve">
+    <value>Borrar registro</value>
+  </data>
+  <data name="LogCleared" xml:space="preserve">
+    <value>Registro borrado</value>
+  </data>
+  <data name="StartupEnabled" xml:space="preserve">
+    <value>La aplicación se iniciará con Windows</value>
+  </data>
+  <data name="StartupDisabled" xml:space="preserve">
+    <value>La aplicación no se iniciará con Windows</value>
+  </data>
+  <data name="StartupError" xml:space="preserve">
+    <value>Error al establecer el estado de inicio: {0}</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="FileMenu" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="EditPathsMenu" xml:space="preserve">
+    <value>Configuración de repositorios SVN</value>
+  </data>
+</root> 

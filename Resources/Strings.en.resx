@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="xml:space" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <data name="AppTitle" xml:space="preserve">
+    <value>SVNSyncMon</value>
+  </data>
+  <data name="UpdateAllNow" xml:space="preserve">
+    <value>Update All SVN Repositories Now</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="SVNPath" xml:space="preserve">
+    <value>SVN Path</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="AddSVNPath" xml:space="preserve">
+    <value>Add SVN Path</value>
+  </data>
+  <data name="EditSVNPath" xml:space="preserve">
+    <value>Edit SVN Path</value>
+  </data>
+  <data name="DeleteSVNPath" xml:space="preserve">
+    <value>Delete SVN Path</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="Interval" xml:space="preserve">
+    <value>Interval (minutes)</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="SVNPathNotFound" xml:space="preserve">
+    <value>SVN executable not found at the specified path.</value>
+  </data>
+  <data name="InvalidInterval" xml:space="preserve">
+    <value>Please enter a valid interval in minutes.</value>
+  </data>
+  <data name="PathRequired" xml:space="preserve">
+    <value>Path is required.</value>
+  </data>
+  <data name="UpdateStarted" xml:space="preserve">
+    <value>Started updating {0}</value>
+  </data>
+  <data name="UpdateCompleted" xml:space="preserve">
+    <value>Completed updating {0}</value>
+  </data>
+  <data name="UpdateFailed" xml:space="preserve">
+    <value>Failed to update {0}: {1}</value>
+  </data>
+  <data name="ClearLog" xml:space="preserve">
+    <value>Clear Log</value>
+  </data>
+  <data name="LogCleared" xml:space="preserve">
+    <value>Log cleared</value>
+  </data>
+  <data name="StartupEnabled" xml:space="preserve">
+    <value>Application will start with Windows</value>
+  </data>
+  <data name="StartupDisabled" xml:space="preserve">
+    <value>Application will not start with Windows</value>
+  </data>
+  <data name="StartupError" xml:space="preserve">
+    <value>Failed to set startup status: {0}</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="FileMenu" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="EditPathsMenu" xml:space="preserve">
+    <value>SVN Repository Settings</value>
+  </data>
+  <data name="StartupRegister" xml:space="preserve">
+    <value>Register as Startup Program</value>
+  </data>
+  <data name="ShowSVNConsole" xml:space="preserve">
+    <value>Show SVN Console</value>
+  </data>
+</root> 

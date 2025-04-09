@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="xml:space" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <data name="AppTitle" xml:space="preserve">
+    <value>SVNSyncMon</value>
+  </data>
+  <data name="UpdateAllNow" xml:space="preserve">
+    <value>立即更新所有SVN儲存庫</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>結束</value>
+  </data>
+  <data name="SVNPath" xml:space="preserve">
+    <value>SVN路徑</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>選擇</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="AddSVNPath" xml:space="preserve">
+    <value>新增SVN路徑</value>
+  </data>
+  <data name="EditSVNPath" xml:space="preserve">
+    <value>編輯SVN路徑</value>
+  </data>
+  <data name="DeleteSVNPath" xml:space="preserve">
+    <value>刪除SVN路徑</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>路徑</value>
+  </data>
+  <data name="Interval" xml:space="preserve">
+    <value>間隔（分鐘）</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>錯誤</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>資訊</value>
+  </data>
+  <data name="SVNPathNotFound" xml:space="preserve">
+    <value>在指定路徑中未找到SVN執行檔。</value>
+  </data>
+  <data name="InvalidInterval" xml:space="preserve">
+    <value>請輸入有效的時間間隔（分鐘）。</value>
+  </data>
+  <data name="PathRequired" xml:space="preserve">
+    <value>需要路徑。</value>
+  </data>
+  <data name="UpdateStarted" xml:space="preserve">
+    <value>開始更新 {0}</value>
+  </data>
+  <data name="UpdateCompleted" xml:space="preserve">
+    <value>{0} 更新完成</value>
+  </data>
+  <data name="UpdateFailed" xml:space="preserve">
+    <value>{0} 更新失敗: {1}</value>
+  </data>
+  <data name="ClearLog" xml:space="preserve">
+    <value>清除記錄</value>
+  </data>
+  <data name="LogCleared" xml:space="preserve">
+    <value>記錄已清除</value>
+  </data>
+  <data name="StartupEnabled" xml:space="preserve">
+    <value>程式將在Windows啟動時執行</value>
+  </data>
+  <data name="StartupDisabled" xml:space="preserve">
+    <value>程式不會在Windows啟動時執行</value>
+  </data>
+  <data name="StartupError" xml:space="preserve">
+    <value>啟動程式設定失敗: {0}</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>語言</value>
+  </data>
+  <data name="FileMenu" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="EditPathsMenu" xml:space="preserve">
+    <value>SVN儲存庫設定</value>
+  </data>
+  <data name="StartupRegister" xml:space="preserve">
+    <value>註冊為啟動程式</value>
+  </data>
+  <data name="ShowSVNConsole" xml:space="preserve">
+    <value>顯示SVN控制台</value>
+  </data>
+  <data name="UpdateIntervalTitle" xml:space="preserve">
+    <value>更新間隔設定</value>
+  </data>
+  <data name="UpdateIntervalLabel" xml:space="preserve">
+    <value>更新間隔（分鐘）:</value>
+  </data>
+  <data name="SelectSVNRepositoryPath" xml:space="preserve">
+    <value>請選擇SVN儲存庫路徑</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>瀏覽</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="SVNExecutableFilter" xml:space="preserve">
+    <value>SVN執行檔|svn.exe</value>
+  </data>
+  <data name="SelectSVNExecutable" xml:space="preserve">
+    <value>選擇SVN執行檔</value>
+  </data>
+  <data name="SVNPathLabel" xml:space="preserve">
+    <value>SVN安裝路徑:</value>
+  </data>
+  <data name="SelectButton" xml:space="preserve">
+    <value>選擇</value>
+  </data>
+  <data name="UpdateInterval" xml:space="preserve">
+    <value>更新間隔（分鐘）</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>分鐘</value>
+  </data>
+  <data name="NextUpdateTime" xml:space="preserve">
+    <value>下次更新時間:</value>
+  </data>
+  <data name="LogExceeded" xml:space="preserve">
+    <value>記錄已超過5000行，已重置。</value>
+  </data>
+  <data name="SVNPathsLoaded" xml:space="preserve">
+    <value>已載入 {0} 個SVN路徑。</value>
+  </data>
+  <data name="SVNPathsConfigNotFound" xml:space="preserve">
+    <value>未找到SVN路徑設定檔。請在"設定 > SVN儲存庫設定"中新增路徑。</value>
+  </data>
+  <data name="SVNUpdateSuccess" xml:space="preserve">
+    <value>SVN更新成功: {0}</value>
+  </data>
+  <data name="UpdateCompleteTime" xml:space="preserve">
+    <value>更新完成時間: {0}</value>
+  </data>
+  <data name="SVNUpdateFailed" xml:space="preserve">
+    <value>SVN更新失敗: {0}</value>
+  </data>
+  <data name="SVNUpdateError" xml:space="preserve">
+    <value>SVN更新錯誤: {0}</value>
+  </data>
+  <data name="SVNPathsUpdated" xml:space="preserve">
+    <value>已更新 {0} 個SVN路徑。</value>
+  </data>
+</root> 
