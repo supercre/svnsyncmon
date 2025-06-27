@@ -573,6 +573,29 @@ namespace SVNSyncMon
                         {
                             AppendLog(Localization.GetString("SVNUpdateFailed", error));
                         });
+
+                        // cleanup 관련 에러가 발생했는지 확인
+                        if (IsCleanupRequired(error))
+                        {
+                            await InvokeAsync(() =>
+                            {
+                                AppendLog("Cleanup required detected. Running 'svn cleanup'...");
+                            });
+
+                            // svn cleanup 실행
+                            bool cleanupSuccess = await ExecuteSvnCleanup(path);
+                            
+                            if (cleanupSuccess)
+                            {
+                                await InvokeAsync(() =>
+                                {
+                                    AppendLog("Cleanup completed successfully. Retrying update...");
+                                });
+                                
+                                // cleanup 후 다시 update 시도
+                                await ExecuteSvnUpdateAfterCleanup(path);
+                            }
+                        }
                     }
                 }
             }
@@ -581,6 +604,121 @@ namespace SVNSyncMon
                 await InvokeAsync(() =>
                 {
                     AppendLog(Localization.GetString("SVNUpdateError", ex.Message));
+                });
+            }
+        }
+
+        private bool IsCleanupRequired(string errorMessage)
+        {
+            if (string.IsNullOrEmpty(errorMessage))
+                return false;
+
+            string lowerError = errorMessage.ToLower();
+            return lowerError.Contains("cleanup") || 
+                   lowerError.Contains("svn cleanup") ||
+                   lowerError.Contains("working copy locked") ||
+                   lowerError.Contains("database is locked") ||
+                   lowerError.Contains("sqlite") && lowerError.Contains("locked");
+        }
+
+        private async Task<bool> ExecuteSvnCleanup(string path)
+        {
+            try
+            {
+                var startInfo = new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = svnPath,
+                    Arguments = $"cleanup \"{path}\"",
+                    RedirectStandardOutput = true,
+                    RedirectStandardError = true,
+                    UseShellExecute = false,
+                    CreateNoWindow = true
+                };
+
+                using (var process = System.Diagnostics.Process.Start(startInfo))
+                {
+                    string output = await process.StandardOutput.ReadToEndAsync();
+                    string error = await process.StandardError.ReadToEndAsync();
+                    await process.WaitForExitAsync();
+
+                    if (process.ExitCode == 0)
+                    {
+                        await InvokeAsync(() =>
+                        {
+                            AppendLog($"SVN Cleanup Success: {output}");
+                        });
+                        return true;
+                    }
+                    else
+                    {
+                        await InvokeAsync(() =>
+                        {
+                            AppendLog($"SVN Cleanup Failed: {error}");
+                        });
+                        return false;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                await InvokeAsync(() =>
+                {
+                    AppendLog($"SVN Cleanup Error: {ex.Message}");
+                });
+                return false;
+            }
+        }
+
+        private async Task ExecuteSvnUpdateAfterCleanup(string path)
+        {
+            try
+            {
+                var startInfo = new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = svnPath,
+                    Arguments = $"update \"{path}\"",
+                    RedirectStandardOutput = true,
+                    RedirectStandardError = true,
+                    UseShellExecute = false,
+                    CreateNoWindow = true
+                };
+
+                using (var process = System.Diagnostics.Process.Start(startInfo))
+                {
+                    string output = await process.StandardOutput.ReadToEndAsync();
+                    string error = await process.StandardError.ReadToEndAsync();
+                    await process.WaitForExitAsync();
+
+                    if (process.ExitCode == 0)
+                    {
+                        await InvokeAsync(() =>
+                        {
+                            AppendLog(Localization.GetString("SVNUpdateSuccess", output));
+                            AppendLog(Localization.GetString("UpdateCompleteTime", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")));
+                            
+                            // 다음 업데이트 시각 계산 및 표시
+                            var pathInfo = svnPaths.FirstOrDefault(p => p.Path == path);
+                            if (pathInfo != null)
+                            {
+                                DateTime nextUpdateTime = DateTime.Now.AddMinutes(pathInfo.UpdateInterval);
+                                AppendLog(Localization.GetString("NextUpdateTime", nextUpdateTime.ToString("yyyy-MM-dd HH:mm:ss")));
+                            }
+                        });
+                    }
+                    else
+                    {
+                        await InvokeAsync(() =>
+                        {
+                            AppendLog($"SVN Update Failed after cleanup: {error}");
+                        });
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                await InvokeAsync(() =>
+                {
+                    AppendLog($"SVN Update Error after cleanup: {ex.Message}");
                 });
             }
         }
